@@ -4,7 +4,10 @@
     {
       "enabled": true,
       "labels": ["dependency"],
-      "automerge": false
+      "automerge": false,
+      "matchManagers": ["npm"],
+      "matchPackagePatterns": ["*"],
+      "separateMajorMinor": false
     }
   ],
   "vulnerabilityAlerts": {
