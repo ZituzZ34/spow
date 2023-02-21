@@ -1,6 +1,15 @@
 {
   "extends": ["config:base"],
+  "packageRules": [
+    {
+      "enabled": true,
+      "labels": ["dependency"],
+      "automerge": false
+    }
+  ],
   "vulnerabilityAlerts": {
-    "enabled": true
+    "enabled": true,
+    "labels": ["security"],
+    "automerge": true
   }
 }
