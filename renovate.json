@@ -3,9 +3,9 @@
   "packageRules": [
     {
       "enabled": true,
-      "labels": ["dependency"],
+      "labels": ["dependencies"],
       "automerge": false,
-      "matchManagers": ["npm"],
+      "matchManagers": ["pnpm"],
       "matchPackagePatterns": ["*"],
       "separateMajorMinor": false
     }
