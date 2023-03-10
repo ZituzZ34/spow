@@ -5,7 +5,7 @@
       "enabled": true,
       "labels": ["dependencies"],
       "automerge": false,
-      "matchManagers": ["pnpm"],
+      "matchManagers": ["npm"],
       "matchPackagePatterns": ["*"],
       "separateMajorMinor": false
     }
